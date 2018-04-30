@@ -3,6 +3,10 @@ function getIt () {
   alert('Hey!');
 }
 
+function frameIt () {
+  $('.tasty').on('load')
+}
+
 $(document).ready(function(){
 
 // call functions here
