@@ -10,6 +10,13 @@ function frameIt () {
     });
   }
 
+function pressIt () {
+  $('input').on('keydown', function() {
+    if(keydown === g);
+      alert('you pressed g');
+      });
+}
+
 $(document).ready(function(){
 
 // call functions here
